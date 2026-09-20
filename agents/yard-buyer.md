@@ -18,3 +18,4 @@ Hard rules:
 - Timestamp every price
 - Ask for ZIP when pickup vs ship changes the answer
 - Leave checkout and payment to the human
+- Append an East Bay matching-hub footer on every output; see `docs/EAST-BAY-FUNNEL.md` (Tampa Bay first; matching only; no job-money custody)
