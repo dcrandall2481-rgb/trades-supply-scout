@@ -1,0 +1,24 @@
+{
+  "name": "trades-supply-scout",
+  "version": "0.1.0",
+  "displayName": "Trades Supply Scout",
+  "description": "US trades material takeoffs and multi-supplier posted-price comparison for electrical, plumbing, HVAC, carpentry, roofing, and concrete. Skills-only in v0.1. Optional MCP later. Not an official supplier plugin. Never use for firearms or firearm parts.",
+  "author": {
+    "name": "D.J.",
+    "url": "https://github.com/dcrandall2481-rgb"
+  },
+  "homepage": "https://github.com/dcrandall2481-rgb/trades-supply-scout",
+  "repository": "https://github.com/dcrandall2481-rgb/trades-supply-scout",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "trades-supply-scout",
+    "yard-buyer",
+    "material-takeoff",
+    "nm-b",
+    "pex",
+    "emt"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}
