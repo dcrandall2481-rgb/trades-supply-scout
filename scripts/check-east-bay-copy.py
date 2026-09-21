@@ -60,6 +60,9 @@ def main() -> int:
         errors.append("lock: email drifted")
     if LOCK["founder_hold"]["phone"]["status"] != "HOLD":
         errors.append("lock: phone must stay HOLD")
+    geo = LOCK.get("product_geography") or {}
+    if geo.get("scope") != "United States" or geo.get("kind") != "countrywide_app":
+        errors.append("lock: product must stay a United States countrywide app")
 
     for path in iter_files():
         text = path.read_text(encoding="utf-8")
@@ -81,6 +84,8 @@ def main() -> int:
         for pat in METRO_BANS:
             if re.search(pat, lower):
                 errors.append(f"{rel}: invents a live metro ({pat})")
+        if rel.name in {"README.md", "yard-buyer.md"} and "united states" not in lower:
+            errors.append(f"{rel}: missing United States product geography")
         if rel.parts[0] in {"agents", "skills"} or rel.name in {
             "README.md",
             "CURSOR-SUBMISSION.md",

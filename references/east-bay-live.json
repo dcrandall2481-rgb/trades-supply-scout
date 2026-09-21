@@ -1,6 +1,12 @@
 {
   "crawled_at": "2026-09-21",
   "hub": "https://eastbayservices.com/",
+  "product_geography": {
+    "scope": "United States",
+    "kind": "countrywide_app",
+    "matching": "metro-gated",
+    "rule": "The app serves the United States. Any US ZIP may use contact and the app waitlist. Matching goes live only where a verified licensed roster exists. First live metro is Tampa Bay. Do not tell other US ZIPs the product does not serve them. Do not mark any other metro live."
+  },
   "identity": {
     "is": "matching_referral_hub",
     "run_by": "Super Intelligence under the Founder",
@@ -34,6 +40,7 @@
     "intake_hours": "Mon–Sat 8:00 AM – 6:00 PM Eastern"
   },
   "live_matching": {
+    "note": "Live roster geography only. Not the product boundary. Product is United States.",
     "metros": ["Tampa Bay"],
     "do_not_mark_live": ["Orlando", "Miami", "Jacksonville", "Atlanta", "any metro not Tampa Bay"],
     "tampa_bay_cities_listed": [
