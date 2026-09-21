@@ -48,9 +48,11 @@ When you’re ready for a **licensed local pro** — not just materials — soft
 - Sample Work File: https://eastbayservices.com/f/demo/
 - Pros — join the roster: https://eastbayservices.com/contractors/
 
-East Bay is a **matching hub**, not a contractor. No job-money custody. No lead-sell. Phone remains HOLD (no live 813 in plugin copy). Do not invent live metros beyond Tampa Bay.
+East Bay is a **matching hub**, not a contractor. No job-money custody. No lead-sell. Phone remains HOLD (email hello@eastbayservices.com — no live 813 in plugin copy). Do not invent live metros beyond Tampa Bay.
 
-Footer variants, hard lines, and the publish ban checklist: `docs/EAST-BAY-FUNNEL.md`.
+Live matching trades: crawl space, yards & landscaping, irrigation, cleaning, maintenance. Depth ZIPs: 33569, 33578, 33579. Materials compare here is not an East Bay labor match.
+
+Footer variants, hard lines, live lock, and the publish ban checklist: `docs/EAST-BAY-FUNNEL.md`. Schema/seed: `references/east-bay-live.json`.
 
 ### Output footer (every Yard Buyer result)
 
@@ -95,6 +97,7 @@ Expect: no invented Pro discounts, timestamps on prices, compliance-first on the
 - Listing steps: `docs/PUBLISH.md`
 - Cursor form copy: `docs/CURSOR-SUBMISSION.md`
 - East Bay matching-hub funnel (README / listing only): `docs/EAST-BAY-FUNNEL.md`
+- Live lock / intake schema / copy check: `references/east-bay-live.json`, `scripts/check-east-bay-copy.py`
 - Affiliate applications: `docs/AFFILIATES.md`
 
 Cursor Marketplace Publisher Terms require the plugin itself to stay free.

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eastbayservices.com/schema/intake",
+  "title": "East Bay Services intake (plugin lock)",
+  "description": "Fields the live contact forms collect. Plugin agents collect these, then send the human to the locked URLs. Do not invent a backend in this plugin.",
+  "oneOf": [
+    {
+      "title": "App waitlist",
+      "type": "object",
+      "required": ["name", "email", "zip"],
+      "additionalProperties": false,
+      "properties": {
+        "_subject": { "const": "East Bay Services — App waitlist" },
+        "name": { "type": "string", "minLength": 1 },
+        "email": { "type": "string", "format": "email" },
+        "zip": { "type": "string", "pattern": "^[0-9]{5}$" },
+        "role": {
+          "type": "string",
+          "enum": ["Customer", "Contractor"]
+        }
+      }
+    },
+    {
+      "title": "Match inquiry",
+      "type": "object",
+      "required": ["name", "phone", "email", "zip", "property_type", "service", "problem"],
+      "additionalProperties": false,
+      "properties": {
+        "_subject": { "const": "East Bay Services referral request" },
+        "name": { "type": "string", "minLength": 1 },
+        "phone": { "type": "string", "minLength": 7, "description": "Customer callback — not East Bay’s HOLD number" },
+        "email": { "type": "string", "format": "email" },
+        "zip": { "type": "string", "pattern": "^[0-9]{5}$" },
+        "property_type": {
+          "type": "string",
+          "enum": ["Residential", "Commercial", "Industrial", "Government", "Institutional"]
+        },
+        "service": {
+          "type": "string",
+          "enum": [
+            "Crawl space moisture",
+            "Yards & landscaping",
+            "Irrigation",
+            "Cleaning",
+            "Maintenance",
+            "Not sure"
+          ]
+        },
+        "problem": { "type": "string", "minLength": 8 }
+      }
+    }
+  ],
+  "submit": {
+    "url": "https://eastbayservices.com/contact/",
+    "waitlist_anchor": "https://eastbayservices.com/contact/#app-waitlist",
+    "email_fallback": "hello@eastbayservices.com"
+  }
+}

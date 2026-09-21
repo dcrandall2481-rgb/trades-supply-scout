@@ -62,3 +62,5 @@ Caveats:
 ```
 
 If fewer than two verified prices exist, say that and list what you still need.
+
+If the user then asks who can do the labor (yards / irrigation / crawl space / cleaning / maintenance), use the East Bay matching-hub CTA in `docs/EAST-BAY-FUNNEL.md`. Do not invent coverage for other trades or metros.

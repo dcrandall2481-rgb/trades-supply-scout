@@ -1,0 +1,118 @@
+{
+  "crawled_at": "2026-09-21",
+  "hub": "https://eastbayservices.com/",
+  "identity": {
+    "is": "matching_referral_hub",
+    "run_by": "Super Intelligence under the Founder",
+    "not": [
+      "contractor",
+      "general_contractor",
+      "escrow_agent",
+      "chatbot_product",
+      "job_money_custodian",
+      "crew_dispatcher"
+    ],
+    "holds": "the Work File",
+    "does_not_hold": "job money",
+    "does_not_schedule": "crews"
+  },
+  "founder_hold": {
+    "phone": {
+      "status": "HOLD",
+      "config_display": "[813-XXX-XXXX]",
+      "config_tel": "+18130000000",
+      "plugin_rule": "Do not publish a live 813 or the placeholder tel: link. Email only until Founder publishes a number."
+    },
+    "legal_name": "East Bay Services (pending Sunbiz LLC filing)",
+    "address": "[VIRTUAL MAILBOX TBD], FL",
+    "privacy": "draft-for-counsel",
+    "app_badges": "pending",
+    "ga4": "disabled_empty"
+  },
+  "contact": {
+    "email": "hello@eastbayservices.com",
+    "intake_hours": "Mon–Sat 8:00 AM – 6:00 PM Eastern"
+  },
+  "live_matching": {
+    "metros": ["Tampa Bay"],
+    "do_not_mark_live": ["Orlando", "Miami", "Jacksonville", "Atlanta", "any metro not Tampa Bay"],
+    "tampa_bay_cities_listed": [
+      "Tampa",
+      "St. Petersburg",
+      "Clearwater",
+      "Brandon",
+      "Riverview",
+      "Valrico",
+      "Apollo Beach",
+      "FishHawk",
+      "Temple Terrace",
+      "Lutz",
+      "Land O' Lakes",
+      "Wesley Chapel",
+      "Largo",
+      "Pinellas Park"
+    ],
+    "depth_zips": ["33569", "33578", "33579"],
+    "trades": [
+      "crawl space",
+      "yards & landscaping",
+      "irrigation",
+      "cleaning",
+      "maintenance"
+    ],
+    "not_live_trades": [
+      "electrical",
+      "plumbing",
+      "HVAC",
+      "roofing",
+      "carpentry"
+    ],
+    "audio": "OFF including issue-sound (Fla. Stat. § 934.03). Photos + silent video only."
+  },
+  "contractor_fee_public": {
+    "success_percent": 6,
+    "floor_usd": 25,
+    "cap_usd": 400,
+    "lead_usd": 0,
+    "bid_usd": 0,
+    "do_not_invent": "public retainers or other fee schedules"
+  },
+  "license_verify": {
+    "florida": "https://www.myfloridalicense.com/",
+    "pattern": "Verify the contractor’s license with the official licensing board in the state where the work will be performed. Florida jobs: myfloridalicense.com. Other live metros: that state’s board."
+  },
+  "urls": {
+    "home": "https://eastbayservices.com/",
+    "contact": "https://eastbayservices.com/contact/",
+    "waitlist": "https://eastbayservices.com/contact/#app-waitlist",
+    "demo_work_file": "https://eastbayservices.com/f/demo/",
+    "contractors": "https://eastbayservices.com/contractors/",
+    "yards": "https://eastbayservices.com/yards/",
+    "pricing": "https://eastbayservices.com/pricing/",
+    "trust": "https://eastbayservices.com/trust/",
+    "live": "https://eastbayservices.com/live/"
+  },
+  "work_file": {
+    "path": "/f/<short-id>",
+    "customer_name": "Your job file",
+    "loop": [
+      "capture",
+      "packet",
+      "match_up_to_3_license_fit",
+      "customer_picks",
+      "customer_hires_the_pro",
+      "door_closeout_same_file"
+    ],
+    "demo": {
+      "url": "https://eastbayservices.com/f/demo/",
+      "executable": "client_shell_only",
+      "note": "Live /f/demo/ is a SAMPLE HVAC/CAC packet. HVAC is not a live East Bay match trade. Do not treat demo contractors as a roster."
+    }
+  },
+  "hub_stack": {
+    "in_this_repo": false,
+    "live": "static HTML + /js/config.js + /js/site.js + /js/work-file.js behind Cloudflare",
+    "intake": "FormSubmit ajax to hello@eastbayservices.com; HTML mailto fallback",
+    "sitemap_status_2026_09_21": "all listed paths HTTP 200"
+  }
+}
