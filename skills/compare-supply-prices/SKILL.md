@@ -62,3 +62,5 @@ Caveats:
 ```
 
 If fewer than two verified prices exist, say that and list what you still need.
+
+If the user then asks who can do the labor (yards / irrigation / crawl space / cleaning / maintenance) anywhere in the United States, use the East Bay matching-hub CTA in `docs/EAST-BAY-FUNNEL.md`. Tampa Bay is the first live metro. Other US ZIPs go to the waitlist. Do not invent a live roster, and do not describe the app as Tampa-only.

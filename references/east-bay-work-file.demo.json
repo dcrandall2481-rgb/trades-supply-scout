@@ -1,0 +1,31 @@
+{
+  "short_id": "demo",
+  "label": "DEMO / SAMPLE — not a real job. Not a live roster.",
+  "source": "https://eastbayservices.com/f/demo/",
+  "metro": "Tampa Bay",
+  "job_state": "FL",
+  "property_type": "residential",
+  "state": "estimates_open",
+  "sections": ["media", "scope", "estimates", "people", "hold", "door", "closeout"],
+  "live_trade_gate": {
+    "live_trades": [
+      "crawl space",
+      "yards & landscaping",
+      "irrigation",
+      "cleaning",
+      "maintenance"
+    ],
+    "this_demo_license_class": "CAC",
+    "warning": "The public demo packet is HVAC/CAC. HVAC is not a live East Bay match trade. Do not invent a licensed HVAC roster from this file."
+  },
+  "packet": {
+    "kind": "triage_routing_file",
+    "not": ["PE report", "engineering diagnosis", "contractor bid from East Bay"]
+  },
+  "hold": {
+    "status": "not_funded",
+    "note": "East Bay does not custody job money. Demo hold UI is not a live payment product. Do not tell users to send a deposit to East Bay."
+  },
+  "match_rule": "Up to 3 license-fit contractors where the roster is live. Customer picks. Customer hires the pro. Door and closeout stay on the same file.",
+  "unknown_short_id": "Live /f/<id> other than demo is a stub — do not invent job files."
+}

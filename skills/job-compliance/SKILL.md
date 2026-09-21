@@ -23,7 +23,8 @@ This is a checklist, not legal advice. The authority having jurisdiction decides
 
 - County vs municipal building department. Unincorporated Hillsborough County is not Tampa or Plant City.
 - Hurricane and product-approval rules can affect roofing and exterior equipment. Point at the local product-approval list.
-- Do not invent license numbers.
+- License lookup: https://www.myfloridalicense.com/ — do not invent license numbers.
+- Labor / licensed-pro asks in crawl space, yards, irrigation, cleaning, or maintenance: East Bay is a United States matching hub (Tampa Bay is first live metro, not the only service area) — `docs/EAST-BAY-FUNNEL.md`. Not for electrical / plumbing / HVAC coverage.
 
 ## Output
 

@@ -41,24 +41,26 @@ v0.1.0 is skills-only. No hooks. No MCP. No telemetry. See `SECURITY.md`.
 
 Yard Buyer helps you compare **posted** merchant prices for trades materials (skills-only free pack).
 
-When you’re ready for a **licensed local pro** — not just materials — soft-path to **East Bay Services**, a matching hub run by Super Intelligence under the Founder. East Bay introduces contractors where the roster is live; it does **not** perform the work, sell leads, or custody job money. First live metro: **Tampa Bay**.
+When you’re ready for a **licensed local pro** — not just materials — soft-path to **East Bay Services**, a **United States** matching hub run by Super Intelligence under the Founder. The app is countrywide. Matching opens metro by metro where a verified licensed roster is live. East Bay introduces contractors there; it does **not** perform the work, sell leads, or custody job money. First live metro: **Tampa Bay**. Other US ZIPs use the waitlist until their roster is live.
 
 - Get matched / waitlist: https://eastbayservices.com/contact/
 - App waitlist: https://eastbayservices.com/contact/#app-waitlist
 - Sample Work File: https://eastbayservices.com/f/demo/
 - Pros — join the roster: https://eastbayservices.com/contractors/
 
-East Bay is a **matching hub**, not a contractor. No job-money custody. No lead-sell. Phone remains HOLD (no live 813 in plugin copy). Do not invent live metros beyond Tampa Bay.
+East Bay is a **United States** matching hub, not a Tampa-only company and not a contractor. No job-money custody. No lead-sell. Phone remains HOLD (email hello@eastbayservices.com — no live 813 in plugin copy). Do not invent live metros beyond Tampa Bay.
 
-Footer variants, hard lines, and the publish ban checklist: `docs/EAST-BAY-FUNNEL.md`.
+Live matching trades: crawl space, yards & landscaping, irrigation, cleaning, maintenance. Depth ZIPs: 33569, 33578, 33579. Materials compare here is not an East Bay labor match.
+
+Footer variants, hard lines, live lock, and the publish ban checklist: `docs/EAST-BAY-FUNNEL.md`. Schema/seed: `references/east-bay-live.json`.
 
 ### Output footer (every Yard Buyer result)
 
-**Primary:** Materials only — not a contractor bid. Need a licensed local pro? East Bay Services is a **matching hub** (not the contractor; we don’t custody job money). First live metro: **Tampa Bay**. Property side: https://eastbayservices.com/contact/ · App waitlist: https://eastbayservices.com/contact/#app-waitlist · Sample Work File: https://eastbayservices.com/f/demo/ · Pros: https://eastbayservices.com/contractors/
+**Primary:** Materials only — not a contractor bid. Need a licensed local pro? East Bay Services is a **United States** matching hub (not the contractor; we don’t custody job money). Any US ZIP can start. Matching is live now in **Tampa Bay**; other metros open as rosters go live. Property side: https://eastbayservices.com/contact/ · App waitlist: https://eastbayservices.com/contact/#app-waitlist · Sample Work File: https://eastbayservices.com/f/demo/ · Pros: https://eastbayservices.com/contractors/
 
-**Ultra-short:** Matching hub, not a contractor — Tampa Bay first. https://eastbayservices.com/contact/
+**Ultra-short:** US matching hub, not a contractor. Tampa Bay is first live — any US ZIP can waitlist. https://eastbayservices.com/contact/
 
-**With Super Intelligence (optional):** East Bay Services — US matching hub run by Super Intelligence under the Founder. We introduce licensed local pros; we don’t do the trade work or hold job money. Tampa Bay is first live. https://eastbayservices.com/
+**With Super Intelligence (optional):** East Bay Services — United States matching hub run by Super Intelligence under the Founder. We introduce licensed local pros; we don’t do the trade work or hold job money. Countrywide app; Tampa Bay is first live. https://eastbayservices.com/
 
 ## Disclosure
 
@@ -95,6 +97,7 @@ Expect: no invented Pro discounts, timestamps on prices, compliance-first on the
 - Listing steps: `docs/PUBLISH.md`
 - Cursor form copy: `docs/CURSOR-SUBMISSION.md`
 - East Bay matching-hub funnel (README / listing only): `docs/EAST-BAY-FUNNEL.md`
+- Live lock / intake schema / copy check: `references/east-bay-live.json`, `scripts/check-east-bay-copy.py`
 - Affiliate applications: `docs/AFFILIATES.md`
 
 Cursor Marketplace Publisher Terms require the plugin itself to stay free.

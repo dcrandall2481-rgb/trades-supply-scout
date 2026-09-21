@@ -20,7 +20,7 @@ Yard Buyer — trades materials price scout (free).
 
 Yard Buyer helps you compare **posted** merchant prices for trades materials (skills-only free pack).
 
-When you’re ready for a **licensed local pro** — not just materials — soft-path to **East Bay Services**, a matching hub run by Super Intelligence under the Founder. East Bay introduces contractors where the roster is live; it does **not** perform the work, sell leads, or custody job money. First live metro: **Tampa Bay**.
+When you’re ready for a **licensed local pro** — not just materials — soft-path to **East Bay Services**, a **United States** matching hub run by Super Intelligence under the Founder. The app is countrywide. Matching opens metro by metro. East Bay introduces contractors where the roster is live; it does **not** perform the work, sell leads, or custody job money. First live metro: **Tampa Bay**. Other US ZIPs use the waitlist.
 
 - Get matched / waitlist: https://eastbayservices.com/contact/
 - Sample Work File: https://eastbayservices.com/f/demo/
