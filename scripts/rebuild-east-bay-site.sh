@@ -47,7 +47,9 @@ while read -r url; do
   fi
 done < <(grep -oE '<loc>[^<]+' sitemap.xml | sed 's/<loc>//')
 
-for f in js/config.js js/site.js js/work-file.js css/site.css css/work-file.css; do
+for f in js/config.js js/site.js js/work-file.js css/site.css css/work-file.css \
+  f/index.html f/new/index.html data/metro-registry.json data/empty-states.json \
+  images/favicon.svg images/app-icon-star-in-navy.svg images/mark-star-in-navy.svg; do
   if [ ! -s "$f" ]; then
     echo "MISSING: $f" >&2
     missing=1
