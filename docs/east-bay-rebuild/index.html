@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="ebs-root" content="./">
+  <title>East Bay Services | Compare licensed contractors from one job file</title>
+  <meta name="description" content="US matching hub, live now in Tampa Bay. Send photos of the problem, get one job file, and compare bids from up to three licensed contractors. Free for property owners and managers. You pick the pro and pay them directly. Matching hub — not the contractor.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://eastbayservices.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="East Bay Services | Compare licensed contractors from one job file">
+  <meta property="og:description" content="Photos in, one job file out, up to three licensed bids. You pick the pro and pay them directly. US matching hub — live now in Tampa Bay.">
+  <meta property="og:url" content="https://eastbayservices.com/">
+  <meta property="og:site_name" content="East Bay Services">
+  <meta property="og:image" content="https://eastbayservices.com/images/phase1/ebs-home-hero-house-16x9-v2.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="East Bay Services | Compare licensed contractors from one job file">
+  <meta name="twitter:description" content="Photos in, one job file out, up to three licensed bids. You pick the pro and pay them directly. Live now in Tampa Bay.">
+  <meta name="twitter:image" content="https://eastbayservices.com/images/phase1/ebs-home-hero-house-16x9-v2.png">
+  <link rel="preload" as="image" href="./images/phase1/ebs-home-hero-house-16x9-v2.png" fetchpriority="high">
+  <link rel="stylesheet" href="./css/site.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "East Bay Services",
+    "url": "https://eastbayservices.com/",
+    "description": "US matching hub that connects property owners and managers with licensed local contractors. Matching opens metro by metro where a verified licensed roster is live. First live metro: Tampa Bay. East Bay Services does not perform the work or hold job money.",
+    "areaServed": [
+      {"@type": "Country", "name": "United States"},
+      {"@type": "AdministrativeArea", "name": "Tampa Bay, Florida", "description": "First live matching metro"}
+    ],
+    "email": "hello@eastbayservices.com"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main id="main">
+
+    <section class="hero hero-photo hero-home" aria-labelledby="home-promise">
+      <div class="wrap">
+        <a class="badge badge-live" href="live/"><span class="live-dot" aria-hidden="true"></span> US matching hub · Live now in Tampa Bay</a>
+        <h1 id="home-promise">Shoot the issue. Get a job file. Pick a licensed crew.</h1>
+        <p class="hero-lead">Send a few photos of the problem. We turn them into one job file and share it with up to three licensed local contractors who fit the work. You compare their bids and hire the one you want. East Bay Services is a matching hub — not the contractor.</p>
+        <p class="hero-ctas">
+          <a class="btn btn-call" href="#start">Start a job — it’s free</a>
+          <a class="btn btn-secondary btn-on-dark" href="f/demo/">See a sample job file</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="lead-card start-card" id="start" aria-labelledby="start-heading">
+        <h2 id="start-heading">Start a job</h2>
+        <p class="start-sub">About two minutes. Free for property owners and managers.</p>
+        <form id="start-form" class="form-grid" novalidate data-start-form>
+          <input type="hidden" name="form_type" value="start_request">
+          <p class="form-legend">Fields marked <span class="req-mark" aria-hidden="true">*</span><span class="sr-only">with an asterisk</span> are required.</p>
+          <div class="form-row-2">
+            <div>
+              <label class="req" for="start-zip">ZIP code</label>
+              <input id="start-zip" name="zip" type="text" inputmode="numeric" pattern="[0-9]{5}" maxlength="5" autocomplete="postal-code" required aria-describedby="start-zip-hint">
+              <p class="form-note zip-hint" id="start-zip-hint">Any US ZIP. Matching is live in Tampa Bay today — other ZIPs join the waitlist.</p>
+            </div>
+            <div>
+              <label class="req" for="start-trade">Kind of work</label>
+              <select id="start-trade" name="trade" required>
+                <option value="">Choose one</option>
+                <option value="crawl_space">Crawl space</option>
+                <option value="yards">Yards &amp; landscaping</option>
+                <option value="irrigation">Irrigation</option>
+                <option value="cleaning">Cleaning</option>
+                <option value="maintenance">Maintenance / handyman</option>
+                <option value="other">Something else / not sure</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="start-notes">What’s going on?</label>
+            <textarea id="start-notes" name="notes" rows="3" maxlength="800" placeholder="e.g. musty smell under the house and the AC drips in the crawl space"></textarea>
+          </div>
+          <div class="form-row-2">
+            <div>
+              <label class="req" for="start-name">Your name</label>
+              <input id="start-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div>
+              <label class="req" for="start-email">Email</label>
+              <input id="start-email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div>
+            <label for="start-phone">Phone <span class="optional">(optional)</span></label>
+            <input id="start-phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <button type="submit" class="btn btn-call btn-block">Request my matches</button>
+          <p class="form-note">Where the roster is live, we’ll share your request with up to three licensed contractors who fit your ZIP and trade so you can compare. No spam, no obligation. See our <a href="privacy/">privacy policy</a>.</p>
+          <div id="start-status" class="form-status" role="status" aria-live="polite" hidden></div>
+        </form>
+        <div id="start-waitlist" class="start-waitlist" hidden>
+          <p id="start-waitlist-copy"></p>
+          <form id="start-waitlist-form" class="form-grid" data-ebs-form>
+            <input type="hidden" name="_subject" value="East Bay Services — metro/trade waitlist">
+            <input type="hidden" name="form_type" value="start_waitlist">
+            <input type="hidden" name="zip" id="waitlist-zip" value="">
+            <input type="hidden" name="trade" id="waitlist-trade" value="">
+            <div>
+              <label for="waitlist-email">Email</label>
+              <input id="waitlist-email" name="email" type="email" required autocomplete="email" placeholder="you@company.com">
+            </div>
+            <button type="submit" class="btn btn-secondary btn-block">Join the waitlist</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrap wrap-wide">
+      <section class="home-section" id="loop" aria-labelledby="loop-heading">
+        <h2 id="loop-heading">How it works</h2>
+        <ol class="step-cards">
+          <li><span class="step-num">1</span><h3>Shoot</h3><p>Photos and a short silent video of the issue. No audio.</p></li>
+          <li><span class="step-num">2</span><h3>Job file</h3><p>We organize them into one job file contractors can bid from — a summary, not a diagnosis.</p></li>
+          <li><span class="step-num">3</span><h3>Up to three bids</h3><p>Licensed contractors who fit the trade quote inside your file.</p></li>
+          <li><span class="step-num">4</span><h3>You pick</h3><p>Compare side by side and hire the one you want. We never assign a crew.</p></li>
+          <li><span class="step-num">5</span><h3>Door check</h3><p>A named person from the company you hired shows ID before work starts.</p></li>
+          <li><span class="step-num">6</span><h3>Closeout</h3><p>Finish photos land in your file. You pay the contractor directly.</p></li>
+        </ol>
+        <p><a href="how-it-works/">More on how it works →</a></p>
+      </section>
+
+      <section class="home-section" aria-labelledby="trades-heading">
+        <h2 id="trades-heading">Trades we match — live in Tampa Bay</h2>
+        <div class="trade-grid trade-grid-5">
+          <a class="trade-chip" href="crawl-space/"><img src="images/phase1/ebs-trade-crawlspace-4x5-v1.png" alt="" width="800" height="1000" loading="lazy"><span class="trade-chip-label"><strong>Crawl space</strong>Moisture, vapor barriers, sump</span></a>
+          <a class="trade-chip" href="yards/"><img src="images/phase1/ebs-trade-yards-4x5-v1.png" alt="" width="800" height="1000" loading="lazy"><span class="trade-chip-label"><strong>Yards &amp; landscaping</strong>Cleanups, mowing, beds</span></a>
+          <a class="trade-chip" href="irrigation/"><img src="images/phase1/ebs-trade-irrigation-4x5-v1.png" alt="" width="800" height="1000" loading="lazy"><span class="trade-chip-label"><strong>Irrigation</strong>Heads, zones, timers</span></a>
+          <a class="trade-chip" href="cleaning/"><img src="images/phase1/ebs-trade-cleaning-4x5-v1.png" alt="" width="800" height="1000" loading="lazy"><span class="trade-chip-label"><strong>Cleaning</strong>Recurring, move-out, deep</span></a>
+          <a class="trade-chip" href="maintenance/"><img src="images/phase1/ebs-trade-maintenance-4x5-v1.png" alt="" width="800" height="1000" loading="lazy"><span class="trade-chip-label"><strong>Maintenance</strong>Punch lists, upkeep</span></a>
+        </div>
+        <p class="muted">Outside Tampa Bay? Start anyway — we’ll add your ZIP to the waitlist and open matching when a verified licensed roster is live near you.</p>
+      </section>
+
+      <section class="card demo-cta" id="demo" aria-labelledby="demo-heading">
+        <div>
+          <h2 id="demo-heading">See a sample job file</h2>
+          <p>Click through photos, scope, bids, the door check, and closeout on a sample AC repair job before you start your own. It’s a demo — not a real job or contractor.</p>
+        </div>
+        <p><a class="btn btn-secondary" href="f/demo/">Open the sample →</a></p>
+      </section>
+
+      <section class="split-audience" id="split" aria-label="Who this is for">
+        <div class="card split-card">
+          <h2>Property owners &amp; managers</h2>
+          <ul class="check-list">
+            <li>Free to start and free to compare</li>
+            <li>Up to three licensed bids in one place</li>
+            <li>You hire and pay the contractor directly</li>
+          </ul>
+          <p><a class="btn btn-call" href="#start">Start a job</a></p>
+        </div>
+        <div class="card split-card">
+          <h2>Licensed contractors</h2>
+          <ul class="check-list">
+            <li>$0 to join, $0 per lead, $0 to bid</li>
+            <li>Bid from photos and a clear scope</li>
+            <li>6% success fee only when you win ($25 min, $400 max)</li>
+          </ul>
+          <p><a class="btn btn-secondary" href="contractors/">See fees &amp; apply →</a></p>
+        </div>
+      </section>
+
+      <section class="home-section trust-grid-section" aria-labelledby="trust-heading">
+        <h2 id="trust-heading">Why property managers trust the process</h2>
+        <div class="trust-grid">
+          <div><h3>Licensed pros only</h3><p>Contractors apply with an active license for the work before they can bid.</p></div>
+          <div><h3>You make the call</h3><p>We introduce. You choose who comes out — or no one.</p></div>
+          <div><h3>Your money stays with you</h3><p>We never hold deposits. You pay the contractor you hire.</p></div>
+          <div><h3>Photos only</h3><p>No audio recording. You decide what goes in the file.</p></div>
+        </div>
+        <p class="muted">Want to double-check? Verify any contractor’s license with the licensing board in the state where the work happens — Florida jobs: <a href="https://www.myfloridalicense.com/" rel="noopener noreferrer" target="_blank">myfloridalicense.com</a>. <a href="trust/">Trust &amp; safety →</a></p>
+      </section>
+    </div>
+
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="./js/config.js"></script>
+  <script src="./js/start-intake.js"></script>
+  <script src="./js/site.js"></script>
+</body>
+</html>
